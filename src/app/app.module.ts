@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { TreniComponent } from './treni/treni.component';
+import { LucicasaComponent } from './lucicasa/lucicasa.component';
+
 
 
 @NgModule({
@@ -12,6 +14,8 @@ import { TreniComponent } from './treni/treni.component';
     AppComponent,
     MenuComponent,
     TreniComponent,
+    LucicasaComponent,
+    
     
     
   ],
