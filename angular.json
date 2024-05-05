@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "MetroChat:build:production"
+              "buildTarget": "MetroChat:build:production"
             },
             "development": {
-              "browserTarget": "MetroChat:build:development"
+              "buildTarget": "MetroChat:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MetroChat:build"
+            "buildTarget": "MetroChat:build"
           }
         },
         "test": {
