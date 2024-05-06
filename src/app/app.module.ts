@@ -7,6 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import { TreniComponent } from './treni/treni.component';
 import { LucicasaComponent } from './lucicasa/lucicasa.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PartenzatreniPipe } from './pipes/partenzatreni.pipe';
 
 
 
@@ -16,6 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MenuComponent,
     TreniComponent,
     LucicasaComponent,
+    PartenzatreniPipe
     
     
     
@@ -23,7 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
