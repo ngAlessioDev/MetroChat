@@ -1,7 +1,16 @@
-<nav>
-    <ul>
-        <li><a href="">{{link_menu_1}}</a></li>
-        <li><a href="">{{link_menu_2}}</a></li>
-        <li><a href="">{{link_menu_3}}</a></li>
-    </ul>
-</nav>
+<mat-toolbar-row>
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+    [matMenuTriggerFor]="menu"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>{{ link_menu_1 }}</button>
+    <button mat-menu-item>{{ link_menu_2 }}</button>
+    <button mat-menu-item>{{ link_menu_3 }}</button>
+  </mat-menu>
+</mat-toolbar-row>

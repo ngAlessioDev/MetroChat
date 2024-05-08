@@ -1,0 +1,17 @@
+li {
+   
+    box-shadow: 10px 10px 5px 0px black;
+    margin: 25px;
+    padding: 8px;
+    border:3px solid black;
+    border-radius: 20px ;
+    list-style-type: none;
+    width: 30vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul{
+    display:flex;
+    background-color: whitesmoke;
+}

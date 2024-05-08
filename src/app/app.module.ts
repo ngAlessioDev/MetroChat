@@ -8,7 +8,14 @@ import { TreniComponent } from './treni/treni.component';
 import { LucicasaComponent } from './lucicasa/lucicasa.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PartenzatreniPipe } from './pipes/partenzatreni.pipe';
-
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
+import {Component} from '@angular/core';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -17,18 +24,22 @@ import { PartenzatreniPipe } from './pipes/partenzatreni.pipe';
     MenuComponent,
     TreniComponent,
     LucicasaComponent,
-    PartenzatreniPipe
-    
-    
-    
+    PartenzatreniPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatTabsModule,
+    MatIconModule,
+    MatMenuModule,
+    MatButtonModule,
+    
     
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [provideAnimationsAsync()],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
