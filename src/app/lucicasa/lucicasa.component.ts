@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <ul>
       <li *ngFor="let lucisingole of lucidb">
       <i *ngIf="lucisingole.stato == 'ON'" class="material-icons on">lightbulb_outline</i>{{lucisingole.stanza}}</li>
+      <!--Nella parte template del file TS si commenta come all'interno di un file HTML-->
       <!-- L'icona <i> apparirà solo se soddisfatta la condizione di *ngIf-->
     </ul>
   </div>
