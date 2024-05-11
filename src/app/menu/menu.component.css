@@ -1,15 +1,9 @@
-mat-toolbar{
+ .example-spacer {
+  flex: 1 1 auto;
+}
+  
+  a{
+    color:white;
     flex: 1 1 auto;
+    text-decoration: none;
   }
-
-  mat-toolbar-row:nth-child(2) span {
-    margin-right: 20px;
-  }
-  
-
-  
-    .mat-toolbar-row {
-      justify-content: space-around;
-    }
-  
-  

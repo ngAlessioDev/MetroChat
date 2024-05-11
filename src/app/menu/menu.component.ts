@@ -10,9 +10,13 @@ export class MenuComponent {
 link_menu_1: string;
 link_menu_2: string;
 link_menu_3: string;
-constructor(){
-  this.link_menu_1 ="Treni";
-  this.link_menu_2 ="Preferiti";
-  this.link_menu_3 ="Login";
 
+
+title: string;
+constructor(){
+  this.title = 'MetroChat';
+  this.link_menu_1 ="Home";
+  this.link_menu_2 ="Treni";
+  this.link_menu_3 ="Preferiti";
+ 
 }}

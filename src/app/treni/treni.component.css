@@ -15,3 +15,7 @@ ul{
     display:flex;
     background-color: whitesmoke;
 }
+
+h2{
+    text-align: left;
+}
